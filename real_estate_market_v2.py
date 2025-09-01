@@ -7,7 +7,7 @@ Created on Tue May 21 09:26:57 2024
 
 ############ SGD Real Estate Market Prediction ###########
 
-# Let's import the necessary libraries:
+# Let's import the necessary libraries: 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -151,4 +151,5 @@ r2_test_LR = LR.score(X_test, y_test)
 print(f"LR Train MSE: {mse_train_LR}")
 print(f"LR Test MSE: {mse_test_LR}")
 print(f"LR Train R2: {r2_train_LR}")
+
 print(f"LR Test R2: {r2_test_LR}")
